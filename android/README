@@ -1,1 +1,7 @@
-This is where the code for the android app should go... info to be put into here
+This is the primary file for getting the info we need from android phones.  this
+should be sufficient for the project, though I'm not exactly sure how this fits 
+in with the rest of the glassmap code since I have still not seen it. This will
+probably not need to be modified again. After finishing this, I'm no longer sure
+that the iOS version will actually be helpful since it's only capable of 
+collecting information about one AP at a time.
+

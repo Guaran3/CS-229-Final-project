@@ -1,1 +1,6 @@
 Code for the actual machine learning part of the project, in python for ease of use (eww matlab).  
+
+Added test data, the next task is to create a basic program to read in the 
+information on the testdata.  This should be pretty simple, and all the 
+information concerning format should be in the test_folder. All data obtained
+from the 2007 ICDM competition.
