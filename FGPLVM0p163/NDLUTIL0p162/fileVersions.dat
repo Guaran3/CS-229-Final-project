@@ -1,0 +1,72 @@
+File Version listing for ndlutil 0.162
+gammaPdf.m  SVN version 23
+preparePlot.m  CVS version 1.3 SVN version 22
+treeSwapNode.m  CVS version 1.1 SVN version 22
+treeFindParents.m  CVS version 1.1 SVN version 22
+cell2num.m  SVN version 797
+writeStringToFID.m  SVN version 23
+readBoolFromFID.m  SVN version 23
+deg2rad.m  CVS version 1.2 SVN version 22
+invCumGaussian.m  CVS version 1.3 SVN version 22
+ngaussian.m  CVS version 1.2 SVN version 22
+centeringMatrix.m  CVS version 1.1 SVN version 22
+readStringFromFID.m  SVN version 23
+cumGaussian.m  CVS version 1.2 SVN version 22
+xlogy.m  CVS version 1.2 SVN version 22
+safeSave.m  SVN version 797
+sigmoid.m  CVS version 1.1 SVN version 22
+gradLogCumGaussian.m  CVS version 1.2 SVN version 22
+getSymbols.m  CVS version 1.3 SVN version 22
+cumGamma.m  SVN version 22
+jitChol.m  CVS version 1.4 SVN version 246
+treeFindLeaves.m  CVS version 1.1 SVN version 22
+lnCumGaussian.m  CVS version 1.2 SVN version 22
+writeIntToFID.m  SVN version 23
+tokenise.m  CVS version 1.2 SVN version 22
+treeGetWidths.m  CVS version 1.2 SVN version 22
+tableRead.m  CVS version 1.2 SVN version 22
+readBinaryDoubles.m  SVN version 336
+isoctave.m  SVN version 22
+writeBoolToFID.m  SVN version 23
+scatterPlot.m  CVS version 1.2 SVN version 797
+rocCurve.m  CVS version 1.3 SVN version 22
+readDoubleFromFID.m  SVN version 23
+writeDoubleToFID.m  SVN version 23
+traceProduct.m  CVS version 1.2 SVN version 22
+printLatexText.m  SVN version 797
+stringSplit.m  CVS version 1.3 SVN version 22
+xgamrnd.m  SVN version 768
+stack.m  CVS version 1.2 SVN version 22
+gradientCheck.m  CVS version 1.3 SVN version 22
+sparseDiag.m  CVS version 1.4 SVN version 22
+readIntFromFID.m  SVN version 23
+pdinv.m  CVS version 1.5 SVN version 355
+xgamrnd.c  SVN version 768
+escapeText.m  SVN version 797
+treeFindChildren.m  CVS version 1.1 SVN version 22
+ndlutilToolboxes.m  CVS version 1.1 SVN version 22
+kldivGaussian.m  CVS version 1.3 SVN version 22
+lnDiffErfs.c  SVN version 380
+treeFindRoots.m  CVS version 1.2 SVN version 22
+printLatexPlot.m  SVN version 1018
+readVersionFromFID.m  SVN version 23
+stringSigFigs.m  CVS version 1.2 SVN version 22
+writeVersionToFID.m  SVN version 23
+negLogLogit.m  CVS version 1.1 SVN version 22
+lnCumGaussSum.m  CVS version 1.1 SVN version 22
+printPlot.m  SVN version 754
+readme.txt  CVS version 1.16 SVN version 797
+dist1.m  SVN version 362
+invSigmoid.m  CVS version 1.2 SVN version 22
+defaultOptions.m  CVS version 1.2 SVN version 22
+gaussOverDiffCumGaussian.m  CVS version 1.2 SVN version 22
+numsf2str.m  CVS version 1.2 SVN version 968
+hessianCheck.m  CVS version 1.1 SVN version 22
+gradLnDiffErfs.m  CVS version 1.1 SVN version 22
+getline.m  CVS version 1.3 SVN version 797
+logdet.m  CVS version 1.4 SVN version 22
+lnDiffCumGaussian.m  CVS version 1.2 SVN version 22
+zeroAxes.m  CVS version 1.4 SVN version 797
+gaussSamp.m  CVS version 1.2 SVN version 22
+lnDiffErfs.m  CVS version 1.1 SVN version 394
+printLatexOptions.m  SVN version 797
