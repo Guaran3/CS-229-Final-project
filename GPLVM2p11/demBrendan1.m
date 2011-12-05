@@ -7,6 +7,8 @@
 % 	last update 2008-01-24T09:56:49.000000Z
 
 % Fix seeds
+
+addpath(genpath('.')); 
 randn('seed', 1e5);
 rand('seed', 1e5);
 
