@@ -22,3 +22,17 @@ for entry in raw:
 #pp = pprint.PrettyPrinter()
 #pp.pprint(data)
 dump(data,open('parsedData.pkl', 'wb'))
+
+f = open('parsedData.txt', 'w')
+
+for key,value in data.iteritems():
+    strlist = []
+    for k in key:
+        strlist.append(k + ' ')
+    strlist.append(':: ')
+    for vmac,vstr in value:
+        strlist.append(vmac + ':' + vstr + ' ')
+    strlist.append('\n')
+    f.write(''.join(strlist))
+
+f.close()
