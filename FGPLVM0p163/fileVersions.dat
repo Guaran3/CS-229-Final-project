@@ -1,0 +1,166 @@
+File Version listing for fgplvm 0.163
+demVowelsFgplvm3.m  SVN version 536
+gpDynamicsDisplay.m  CVS version 1.4 SVN version 29
+gpReversibleDynamicsLogLikelihood.m  CVS version 1.3 SVN version 29
+fgplvmOptions.m  CVS version 1.6 SVN version 178
+fgplvmSequenceLogLikelihood.m  CVS version 1.3 SVN version 29
+robThreeDynamicsExpandParam.m  CVS version 1.2 SVN version 29
+demVowelsFgplvm1.m  SVN version 536
+fgplvmAddConstraint.m  SVN version 761
+gpTimeDynamicsCreate.m  CVS version 1.2 SVN version 82
+robOneDynamicsExpandParam.m  CVS version 1.3 SVN version 29
+modelLatentGradients.m  CVS version 1.3 SVN version 29
+fgplvmCovGradsTest.m  CVS version 1.4 SVN version 178
+demRobotWirelessFgplvm1.m  SVN version 536
+gpReversibleDynamicsSamp.m  CVS version 1.3 SVN version 29
+robTwoDynamicsSetLatentValues.m  CVS version 1.3 SVN version 29
+fgplvmDynamicsPlot.m  CVS version 1.4 SVN version 29
+demOilFgplvm2.m  SVN version 536
+fgplvmLogLikeGradients.m  CVS version 1.6 SVN version 536
+robThreeDynamicsSetLatentValues.m  CVS version 1.2 SVN version 29
+gpTimeDynamicsExpandParam.m  CVS version 1.1 SVN version 178
+gpDynamicsSetLatentValues.m  CVS version 1.5 SVN version 82
+robTwoDynamicsExpandParam.m  CVS version 1.3 SVN version 29
+fgplvmGradient.m  CVS version 1.3 SVN version 29
+demWalkSitJogDynamicsLearn.m  CVS version 1.2 SVN version 29
+gpSequenceLogLikeGradient.m  CVS version 1.2 SVN version 29
+fgplvmTestMissing.m  CVS version 1.1 SVN version 29
+demRobotWirelessFgplvm3.m  SVN version 536
+fgplvmCmu35Animate.m  SVN version 29
+fgplvmPointLogLikeGradient.m  CVS version 1.4 SVN version 29
+robTwoDynamicsLogLikelihood.m  CVS version 1.3 SVN version 29
+gpDynamicsLatentGradients.m  CVS version 1.4 SVN version 178
+gpDynamicsPointLogLikelihood.m  CVS version 1.1 SVN version 761
+fgplvmWriteResult.m  SVN version 545
+gpDynamicsCreate.m  CVS version 1.5 SVN version 29
+fgplvmExpandParam.m  CVS version 1.6 SVN version 773
+robTwoDynamicsLatentGradients.m  CVS version 1.3 SVN version 29
+cmdsRoadData.m  CVS version 1.3 SVN version 29
+demVowelsFgplvm2.m  SVN version 536
+fgplvmOptimisePoint.m  CVS version 1.6 SVN version 29
+fgplvmSequenceGradient.m  CVS version 1.2 SVN version 29
+demOilFgplvm9.m  SVN version 545
+fgplvmTaylorAngleErrors.m  CVS version 1.1 SVN version 29
+fgplvmDynamicsRun.m  CVS version 1.5 SVN version 29
+fgplvmPointLogLikelihood.m  CVS version 1.6 SVN version 29
+demFourWalks1.m  CVS version 1.1 SVN version 29
+fgplvmObjective.m  CVS version 1.4 SVN version 29
+demCmu35SequenceOptimise.m  SVN version 107
+fgplvmSequenceObjective.m  CVS version 1.2 SVN version 29
+demOil100Fgplvm1.m  SVN version 802
+demOilFgplvm3.m  SVN version 544
+fgplvmFieldPlot.m  CVS version 1.3 SVN version 29
+gpDynamicsExpandParam.m  CVS version 1.5 SVN version 178
+demBrendanPpca1.m  SVN version 802
+demCmu35gplvmReconstruct.m  CVS version 1.6 SVN version 29
+fgplvmReadFromFID.m  CVS version 1.6 SVN version 441
+gpTimeDynamicsLogLikelihood.m  CVS version 1.1 SVN version 82
+fgplvmResultsCpp.m  SVN version 544
+fgplvmVisualise.m  CVS version 1.7 SVN version 105
+gpDynamicsSamp.m  CVS version 1.4 SVN version 29
+robTwoDynamicsCreate.m  CVS version 1.3 SVN version 29
+fgplvmCreate.m  CVS version 1.8 SVN version 761
+demStickFgplvm5.m  SVN version 536
+robThreeDynamicsDisplay.m  CVS version 1.2 SVN version 29
+gpDynamicsLogLikeGradients.m  CVS version 1.5 SVN version 178
+demOilFgplvm7.m  SVN version 536
+demCmu35gplvm4.m  SVN version 107
+gpTimeDynamicsLatentGradients.m  CVS version 1.2 SVN version 178
+gpReversibleDynamicsDisplay.m  CVS version 1.3 SVN version 29
+fgplvmKernDynamicsSample.m  CVS version 1.4 SVN version 29
+demCmu35Animate.m  SVN version 29
+robThreeDynamicsLogLikelihood.m  CVS version 1.2 SVN version 29
+robOneDynamicsLatentGradients.m  CVS version 1.3 SVN version 29
+demStickFgplvm3.m  SVN version 536
+readme.txt  CVS version 1.15 SVN version 802
+robThreeDynamicsExtractParam.m  CVS version 1.2 SVN version 29
+demOilFgplvm5.m  SVN version 544
+fgplvmNearestNeighbour.m  CVS version 1.3 SVN version 29
+demBrendanFgplvm3.m  SVN version 545
+robTwoDynamicsExtractParam.m  CVS version 1.3 SVN version 29
+demCmu35gplvmReconstructTaylor.m  CVS version 1.1 SVN version 29
+fgplvmTest.m  CVS version 1.13 SVN version 498
+demFourWalksReconstruct.m  CVS version 1.1 SVN version 29
+demStickFgplvm2.m  SVN version 536
+demCmu35gplvmFgplvm3.m  SVN version 536
+demStickFgplvm4.m  SVN version 544
+fgplvmPointObjectiveGradient.m  CVS version 1.1 SVN version 29
+gpDynamicsSequenceLogLikelihood.m  CVS version 1.1 SVN version 761
+demBrendanFgplvm1.m  SVN version 545
+gpTimeDynamicsSequenceLogLikeGradient.m  CVS version 1.2 SVN version 105
+gplvmCmu35Animate.m  SVN version 29
+fgplvmClassVisualise.m  CVS version 1.3 SVN version 29
+fgplvmObjectiveGradient.m  CVS version 1.1 SVN version 29
+gpDynamicsExtractParam.m  CVS version 1.6 SVN version 178
+fgplvmDynamicsFieldPlot.m  CVS version 1.4 SVN version 29
+robOneDynamicsLogLikelihood.m  CVS version 1.3 SVN version 29
+robTwoDynamicsDisplay.m  CVS version 1.3 SVN version 29
+gpTimeDynamicsExtractParam.m  CVS version 1.2 SVN version 178
+fgplvmPrintPlot.m  CVS version 1.6 SVN version 29
+demBrendanFgplvm4.m  SVN version 545
+fgplvmPosteriorMeanVar.m  CVS version 1.4 SVN version 29
+robOneDynamicsDisplay.m  CVS version 1.3 SVN version 29
+fgplvmReconstruct.m  SVN version 545
+fgplvmOptimiseSequence.m  CVS version 1.3 SVN version 29
+demVowelsLle.m  CVS version 1.2 SVN version 29
+demOil100Fgplvm2.m  SVN version 802
+gpReversibleDynamicsExtractParam.m  CVS version 1.3 SVN version 29
+fgplvmExtractParam.m  CVS version 1.5 SVN version 761
+demVowelsIsomap.m  CVS version 1.2 SVN version 29
+demOilFgplvm8.m  SVN version 545
+fgplvmDynamicsPosteriorMeanVar.m  CVS version 1.4 SVN version 29
+demOilFgplvm4.m  SVN version 536
+fgplvmSequenceObjectiveGradient.m  CVS version 1.1 SVN version 637
+fgplvmResultsDynamic.m  CVS version 1.3 SVN version 29
+fgplvmLoadResult.m  CVS version 1.3 SVN version 536
+fgplvmReadFromFile.m  CVS version 1.4 SVN version 29
+fgplvmLogLikelihood.m  CVS version 1.5 SVN version 291
+gpTimeDynamicsLogLikeGradients.m  CVS version 1.1 SVN version 178
+robOneDynamicsSetLatentValues.m  CVS version 1.3 SVN version 29
+fgplvmAddDynamics.m  CVS version 1.5 SVN version 82
+gpTimeDynamicsDisplay.m  CVS version 1.1 SVN version 29
+robOneDynamicsExtractParam.m  CVS version 1.3 SVN version 29
+demOilFgplvm1.m  SVN version 536
+gpDynamicsSequenceLogLikeGradient.m  CVS version 1.2 SVN version 761
+demCmu35gplvmFgplvm2.m  SVN version 544
+fgplvmViterbiSequence.m  CVS version 1.1 SVN version 29
+robOneDynamicsLogLikeGradients.m  CVS version 1.3 SVN version 29
+demTwoClusters1.m  CVS version 1.1 SVN version 29
+robThreeDynamicsLatentGradients.m  CVS version 1.2 SVN version 29
+demRobotWirelessFgplvm4.m  SVN version 536
+gpReversibleDynamicsSetLatentValues.m  CVS version 1.3 SVN version 29
+fgplvmDisplay.m  CVS version 1.3 SVN version 29
+demCmu35gplvmFgplvm1.m  SVN version 544
+demStickFgplvm1.m  SVN version 536
+robOneDynamicsCreate.m  CVS version 1.3 SVN version 29
+gpTimeDynamicsSetLatentValues.m  CVS version 1.1 SVN version 82
+demCmu35TaylorNearestNeighbour.m  CVS version 1.2 SVN version 29
+gpTimeDynamicsSequenceLogLikelihood.m  CVS version 1.1 SVN version 82
+demRobotTraces1.m  CVS version 1.3 SVN version 29
+demOilFgplvm6.m  SVN version 536
+fgplvmSequenceLogLikeGradient.m  CVS version 1.3 SVN version 82
+demRobotWirelessFgplvm2.m  SVN version 536
+gpTimeDynamicsOut.m  CVS version 1.1 SVN version 29
+robThreeDynamicsCreate.m  CVS version 1.2 SVN version 29
+robTwoDynamicsLogLikeGradients.m  CVS version 1.3 SVN version 29
+dynamicsTest.m  CVS version 1.3 SVN version 29
+robThreeDynamicsLogLikeGradients.m  CVS version 1.2 SVN version 29
+demBrendanFgplvm5.m  SVN version 545
+fgplvmBackConstraintGrad.m  CVS version 1.1 SVN version 29
+fgplvmDeconstruct.m  SVN version 545
+gpReversibleDynamicsLatentGradients.m  CVS version 1.3 SVN version 178
+gpDynamicsLogLikelihood.m  CVS version 1.4 SVN version 105
+gpReversibleDynamicsOptions.m  CVS version 1.4 SVN version 178
+gpReversibleDynamicsCreate.m  CVS version 1.3 SVN version 182
+gpReversibleDynamicsLogLikeGradients.m  CVS version 1.3 SVN version 178
+demRobotWirelessNavigate.m  CVS version 1.4 SVN version 29
+fgplvmPosteriorVar.m  SVN version 503
+demBrendanFgplvm2.m  SVN version 545
+fgplvmPointGradient.m  CVS version 1.4 SVN version 29
+gpReversibleDynamicsExpandParam.m  CVS version 1.3 SVN version 29
+fgplvmPointSampleLogLikelihood.m  SVN version 105
+fgplvmToolboxes.m  CVS version 1.12 SVN version 545
+modelSetLatentValues.m  CVS version 1.3 SVN version 29
+fgplvmDynamicsSample.m  CVS version 1.4 SVN version 29
+fgplvmPointObjective.m  CVS version 1.4 SVN version 29
+fgplvmOptimise.m  CVS version 1.5 SVN version 29

@@ -1,0 +1,219 @@
+File Version listing for mltools 0.136
+viterbiAlign.m  CVS version 1.2 SVN version 24
+isomapDeconstruct.m  SVN version 545
+lleCreate.m  SVN version 498
+lvmNearestNeighbour.m  SVN version 24
+isomapReconstruct.m  SVN version 545
+linearDisplay.m  CVS version 1.1 SVN version 24
+mlpLogLikelihood.m  CVS version 1.3 SVN version 24
+rbfperiodicOutputGrad.m  CVS version 1.3 SVN version 24
+vectorVisualise.m  CVS version 1.2 SVN version 24
+modelCreate.m  CVS version 1.2 SVN version 24
+dnetOptimise.m  SVN version 536
+lvmClassClickVisualise.m  SVN version 589
+rbfperiodicLogLikeGradients.m  CVS version 1.1 SVN version 24
+dnetUpdateBeta.m  SVN version 24
+dnetGradient.m  SVN version 24
+mogCreate.m  CVS version 1.2 SVN version 24
+vectorModify.m  CVS version 1.2 SVN version 24
+modelLogLikeGradients.m  CVS version 1.3 SVN version 154
+imageModify.m  CVS version 1.1 SVN version 24
+modelExtractParam.m  CVS version 1.4 SVN version 154
+lvmLoadResult.m  SVN version 536
+dnetPosteriorMeanVar.m  SVN version 24
+modelHessian.m  CVS version 1.1 SVN version 24
+multimodelParamInit.m  CVS version 1.1 SVN version 24
+lvmVisualise.m  SVN version 545
+rbfOut.m  CVS version 1.2 SVN version 24
+lvmThreeDPlot.m  SVN version 503
+multimodelDisplay.m  CVS version 1.1 SVN version 24
+mvuCreate.m  SVN version 503
+rbfOptions.m  CVS version 1.1 SVN version 24
+mogMeanCov.m  SVN version 24
+mlpOptions.m  CVS version 1.4 SVN version 24
+ppcaOut.m  SVN version 24
+linearCreate.m  CVS version 1.3 SVN version 24
+lfmClassVisualise.m  SVN version 560
+spectrumModify.m  CVS version 1.3 SVN version 24
+lleOptimise.m  SVN version 498
+multimodelExtractParam.m  CVS version 1.1 SVN version 485
+rbfExpandParam.m  CVS version 1.3 SVN version 24
+linearParamInit.m  CVS version 1.1 SVN version 24
+demSwissRollFullLle1.m  SVN version 97
+modelReadFromFile.m  SVN version 24
+modelWriteResult.m  SVN version 844
+leCreate.m  SVN version 509
+modelGradient.m  CVS version 1.2 SVN version 24
+mlpOutputGrad.m  CVS version 1.4 SVN version 24
+ppcaDeconstruct.m  SVN version 545
+mapmodelReadFromFID.m  SVN version 24
+dnetWriteResult.m  SVN version 545
+mogPrintPlot.m  SVN version 754
+modelOut.m  CVS version 1.4 SVN version 95
+demOilLle1.m  SVN version 99
+mlpOptimise.m  CVS version 1.4 SVN version 24
+doubleMatrixWriteToFID.m  SVN version 24
+modelTieParam.m  CVS version 1.1 SVN version 682
+dnetDeconstruct.m  SVN version 545
+demOilLle2.m  SVN version 99
+modelPointLogLikelihood.m  CVS version 1.1 SVN version 24
+modelGenerator.py  CVS version 1.2 SVN version 548
+mogUpdatePrior.m  CVS version 1.2 SVN version 24
+matrixReadFromFID.m  SVN version 24
+modelOutputGradX.m  CVS version 1.1 SVN version 24
+modelOptions.m  CVS version 1.1 SVN version 24
+dnetOut.m  SVN version 24
+rbfOutputGrad.m  CVS version 1.2 SVN version 24
+lvmResultsClick.m  SVN version 536
+dnetLoadResult.m  SVN version 536
+modelExpandParam.m  CVS version 1.4 SVN version 24
+rbfperiodicOptions.m  CVS version 1.1 SVN version 24
+distanceWarp.m  SVN version 844
+kbrOutputGrad.m  CVS version 1.5 SVN version 82
+mlpDisplay.m  CVS version 1.4 SVN version 24
+rbfperiodicExpandParam.m  CVS version 1.2 SVN version 24
+dnetOutputGradX.m  SVN version 24
+rbfperiodicExtractParam.m  CVS version 1.1 SVN version 24
+linearExtractParam.m  CVS version 1.3 SVN version 760
+lvmPrintPlot.m  SVN version 589
+isomapOptimise.m  SVN version 503
+rbfOptimise.m  CVS version 1.2 SVN version 24
+rbfOutputGradX.m  SVN version 509
+imageVisualise.m  CVS version 1.3 SVN version 545
+rbfperiodicOutputGradX.m  CVS version 1.1 SVN version 24
+mvuDeconstruct.m  SVN version 545
+kbrExtractParam.m  CVS version 1.6 SVN version 24
+kbrOut.m  CVS version 1.3 SVN version 24
+dnetLowerBound.m  SVN version 24
+mlpLogLikeGradients.m  CVS version 1.2 SVN version 24
+modelWriteToFID.m  SVN version 24
+spectralUpdateX.m  SVN version 857
+dnetLogLikeGradients.m  SVN version 24
+mlpExtractParam.m  CVS version 1.6 SVN version 24
+modelReadFromFID.m  SVN version 322
+kbrOptions.m  CVS version 1.3 SVN version 24
+kbrOptimise.m  CVS version 1.3 SVN version 24
+lvmScatterPlotColor.m  CVS version 1.3 SVN version 589
+modelLoadResult.m  SVN version 545
+lfmResultsDynamic.m  SVN version 560
+linearLogLikeGradients.m  CVS version 1.1 SVN version 24
+mlpLogLikeHessian.m  CVS version 1.2 SVN version 24
+lfmVisualise.m  SVN version 560
+modelOutputGrad.m  CVS version 1.5 SVN version 82
+lvmSetPlot.m  SVN version 589
+modelGradientCheck.m  CVS version 1.1 SVN version 844
+multimodelLogLikelihood.m  CVS version 1.1 SVN version 24
+leReconstruct.m  SVN version 545
+isomapOptions.m  SVN version 503
+lvmScoreModel.m  SVN version 1018
+dnetOptions.m  SVN version 95
+dnetUpdateOutputWeights.m  SVN version 24
+modelPosteriorMeanVar.m  SVN version 503
+ppcaCreate.m  SVN version 467
+smallrandEmbed.m  CVS version 1.1 SVN version 24
+lvmScatterPlotNeighbours.m  SVN version 99
+modelObjective.m  CVS version 1.2 SVN version 24
+linearExpandParam.m  CVS version 1.2 SVN version 760
+demMppca1.m  CVS version 1.2 SVN version 24
+multimodelExpandParam.m  CVS version 1.1 SVN version 485
+mogUpdateCovariance.m  CVS version 1.2 SVN version 24
+kbrExpandParam.m  CVS version 1.5 SVN version 82
+dnetExpandParam.m  SVN version 24
+leOptimise.m  SVN version 503
+demSwissRollFullLle2.m  SVN version 97
+kbrDisplay.m  CVS version 1.1 SVN version 24
+mlpOutputGradX.m  CVS version 1.2 SVN version 24
+dnetReconstruct.m  SVN version 536
+findNeighbours.m  SVN version 498
+springDampersVisualise.m  SVN version 24
+linearLogLikelihood.m  CVS version 1.1 SVN version 24
+mvuOptimise.m  SVN version 857
+rbfperiodicLogLikelihood.m  CVS version 1.2 SVN version 24
+mltoolsToolboxes.m  CVS version 1.2 SVN version 503
+demSwissRollLle3.m  SVN version 560
+mogUpdateMean.m  CVS version 1.1 SVN version 24
+dnetEstep.m  SVN version 536
+modelSamp.m  CVS version 1.1 SVN version 24
+demSwissRollLle4.m  SVN version 560
+lleDeconstruct.m  SVN version 545
+rbfperiodicParamInit.m  CVS version 1.1 SVN version 24
+mlpOut.m  CVS version 1.5 SVN version 24
+mlpCreate.m  CVS version 1.4 SVN version 24
+linearOutputGradX.m  CVS version 1.1 SVN version 24
+dnetTest.m  SVN version 24
+mlpParamInit.m  CVS version 1.2 SVN version 24
+linearOut.m  CVS version 1.2 SVN version 161
+demSwissRollFullLle4.m  SVN version 97
+modelGetOutputWeights.m  SVN version 24
+dnetOutputGrad.m  SVN version 24
+lleReconstruct.m  SVN version 545
+lvmClassVisualise.m  CVS version 1.4 SVN version 545
+dnetCreate.m  SVN version 95
+mvuOptions.m  SVN version 503
+leOptions.m  SVN version 548
+mogLowerBound.m  CVS version 1.3 SVN version 24
+modelTest.m  CVS version 1.5 SVN version 24
+spectrumVisualise.m  CVS version 1.3 SVN version 24
+mogOptions.m  CVS version 1.2 SVN version 24
+mogTwoDPlot.m  SVN version 798
+kpcaEmbed.m  CVS version 1.1 SVN version 24
+lvmClassVisualisePath.m  SVN version 24
+paramNameRegularExpressionLookup.m  SVN version 814
+mogEstep.m  CVS version 1.1 SVN version 24
+demSwissRollLle1.m  SVN version 560
+lvmTwoDPlot.m  CVS version 1.5 SVN version 589
+dnetLogLikelihood.m  SVN version 24
+doubleMatrixReadFromFID.m  SVN version 24
+modelSetOutputWeights.m  SVN version 24
+mlpExpandParam.m  CVS version 1.5 SVN version 24
+multimodelCreate.m  CVS version 1.1 SVN version 485
+ppcaPosteriorVar.m  SVN version 503
+mogProject.m  SVN version 24
+readme.txt  CVS version 1.14 SVN version 844
+lleEmbed.m  CVS version 1.2 SVN version 290
+ppcaReconstruct.m  SVN version 545
+paramNameReverseLookup.m  SVN version 151
+modelDisplay.m  CVS version 1.2 SVN version 24
+modelParamInit.m  CVS version 1.1 SVN version 24
+modelPosteriorVar.m  SVN version 503
+linearOptions.m  CVS version 1.1 SVN version 24
+lmvuEmbed.m  SVN version 24
+rbfCreate.m  CVS version 1.2 SVN version 24
+multimodelLogLikeGradients.m  CVS version 1.1 SVN version 485
+mogOptimise.m  CVS version 1.2 SVN version 24
+mogSample.m  SVN version 24
+kbrCreate.m  CVS version 1.3 SVN version 24
+lleOptions.m  SVN version 498
+linearOutputGrad.m  CVS version 1.3 SVN version 760
+ppcaOptions.m  SVN version 24
+mogLogLikelihood.m  SVN version 24
+demOilLle4.m  SVN version 99
+rbfperiodicDisplay.m  CVS version 1.1 SVN version 24
+lvmClickVisualise.m  SVN version 545
+leDeconstruct.m  SVN version 548
+demOilLle3.m  SVN version 99
+springDampersModify.m  SVN version 24
+modelOptimise.m  CVS version 1.6 SVN version 831
+mvuReconstruct.m  SVN version 545
+modelAddDynamics.m  CVS version 1.1 SVN version 24
+demSwissRollLle2.m  SVN version 560
+ppcaEmbed.m  CVS version 1.4 SVN version 498
+dnetExtractParam.m  SVN version 24
+dnetObjective.m  SVN version 24
+lvmScatterPlot.m  CVS version 1.6 SVN version 1018
+rbfperiodicOut.m  CVS version 1.1 SVN version 24
+spectralUpdateLaplacian.m  SVN version 575
+modelLogLikelihood.m  CVS version 1.2 SVN version 24
+isomapCreate.m  SVN version 503
+lvmResultsDynamic.m  SVN version 545
+mappingOptimise.m  CVS version 1.2 SVN version 24
+kbrParamInit.m  CVS version 1.2 SVN version 24
+rbfperiodicCreate.m  CVS version 1.1 SVN version 24
+ppcaPosteriorMeanVar.m  SVN version 24
+demSwissRollFullLle3.m  SVN version 97
+multimodelOptions.m  CVS version 1.1 SVN version 24
+mvuEmbed.m  SVN version 24
+rbfDisplay.m  CVS version 1.2 SVN version 24
+isomapEmbed.m  CVS version 1.4 SVN version 498
+linearOptimise.m  CVS version 1.4 SVN version 161
+rbfExtractParam.m  CVS version 1.3 SVN version 24
