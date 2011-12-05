@@ -12,9 +12,14 @@ f.close()
 raw = eval(rawstring[19:-1])
 
 data = {}
+macdict = {}
+counter = 1
 for entry in raw:
     key = (entry['unixtimestamp'], entry['latitude'], entry['longitude'], entry['errorradius'])
-    entrytuple = (entry['mac'], entry['strength'])
+    if entry['mac'] not in macdict:
+        macdict[entry['mac']] = counter
+        counter += 1
+    entrytuple = (macdict[entry['mac']], entry['strength'])
     if data.get(key, None) == None:
         data[key] = [entrytuple]
     else:
@@ -31,10 +36,9 @@ for key,value in data.iteritems():
     strlist = []
     for k in key:
         strlist.append(k + ' ')
-    strlist.append(':: ')
     value.sort()
     for vmac,vstr in value:
-        strlist.append(vmac + ':' + vstr + ' ')
+        strlist.append(str(vmac) + ':' + vstr + ' ')
     strlist.append('\n')
     f.write(''.join(strlist))
 
