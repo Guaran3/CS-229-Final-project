@@ -19,7 +19,9 @@ for i=1:length(raw)
     currentY = [time lat long error];
     currentX = [];
     while ~isempty(current)
-        
+	[temp current] = strtok(current, ' ');
+	[mac strength] = strtok(temp, ':');
+	        
 
 
 
