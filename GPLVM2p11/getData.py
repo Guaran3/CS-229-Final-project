@@ -19,6 +19,8 @@ for entry in raw:
         data[key] = [entrytuple]
     else:
         data[key] += [entrytuple]
+
+
 #pp = pprint.PrettyPrinter()
 #pp.pprint(data)
 dump(data,open('parsedData.pkl', 'wb'))
@@ -30,6 +32,7 @@ for key,value in data.iteritems():
     for k in key:
         strlist.append(k + ' ')
     strlist.append(':: ')
+    value.sort()
     for vmac,vstr in value:
         strlist.append(vmac + ':' + vstr + ' ')
     strlist.append('\n')
