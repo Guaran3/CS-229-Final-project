@@ -6,6 +6,13 @@ fh = fopen('parsedData.txt', 'r');
 raw = textscan(fg, '%[^\n\r]');
 raw = raw{1,1}
 
+Y  = [];
+Xm = [];
+Xn = [];
+X  = [];
+MAClist = [];
+item = 1
+
 for i=1:length(raw)
     current = raw{i};
     [time  current] = strtok(current, ' ');
@@ -16,14 +23,25 @@ for i=1:length(raw)
     lat   = str2double(lat);
     long  = str2double(long);
     error = str2double(error);
-    currentY = [time lat long error];
+    if lat < minlat || lat > maxlat || long < minlong || long > maxlong
+        continue
+    end
+    currentY = [lat long error];
     currentX = [];
+
     while ~isempty(current)
-	[temp current] = strtok(current, ' ');
-	[mac strength] = strtok(temp, ':');
-	        
-
-
+        Xm = [Xm item];
+        [temp current] = strtok(current, ' ');
+        [mac strength] = strtok(temp, ':');
+        if isempty(find(MAClist, mac))
+            MAClist = [MAClist mac];
+        end
+        Xn = [Xn find(MAClist, mac)];
+        X = [X strength];
+        item = item + 1;
+         
+    end
+    Y = [Y currentY];
 
 
 end
