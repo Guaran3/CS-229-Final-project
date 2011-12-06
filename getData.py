@@ -39,7 +39,7 @@ for key,value in data.iteritems():
     value.sort()
     for vmac,vstr in value:
         strlist.append(str(vmac) + ':' + vstr + ' ')
-    strlist.append('\n')
+    strlist[-1] = '\n'
     f.write(''.join(strlist))
 
 f.close()
