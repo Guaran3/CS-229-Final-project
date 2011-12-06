@@ -30,19 +30,22 @@ for i=1:length(raw)
     currentX = [];
 
     while ~isempty(current)
-        Xm = [Xm item];
         [temp current] = strtok(current, ' ');
         [mac strength] = strtok(temp, ':');
-	mac = str2double(mac);
-	strength = str2double(strength);
-        if isempty(find(MAClist, mac))
+        if isempty(mac)
+            break;
+        end
+        mac = str2double(mac);
+        strength = str2num(strength(2:length(strength)));
+        if isempty(find(MAClist==mac))
             MAClist = [MAClist mac];
         end
-        Xn = [Xn find(MAClist, mac)];
+        Xm = [Xm item];
+        Xn = [Xn find(MAClist==mac)];
         X = [X strength];
-        item = item + 1;
          
     end
+    item = item + 1;
     Y = [Y; currentY];
 
 end
