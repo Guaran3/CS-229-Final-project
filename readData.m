@@ -33,6 +33,8 @@ for i=1:length(raw)
         Xm = [Xm item];
         [temp current] = strtok(current, ' ');
         [mac strength] = strtok(temp, ':');
+	mac = str2double(mac);
+	strength = str2double(strength);
         if isempty(find(MAClist, mac))
             MAClist = [MAClist mac];
         end
@@ -41,7 +43,10 @@ for i=1:length(raw)
         item = item + 1;
          
     end
-    Y = [Y currentY];
+    Y = [Y; currentY];
 
 end
+
+yvals = Y;
+xvals = sparse(Xm, Xn, X);
 
