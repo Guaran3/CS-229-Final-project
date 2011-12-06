@@ -1,4 +1,4 @@
-function [yvals xvals] = readData( minlat, minlong, maxlat, maxlong )
+function [yvals xvals Xm Xn X] = readData( minlat, minlong, maxlat, maxlong )
 %READDATA Summary of this function goes here
 %   Detailed explanation goes here
 

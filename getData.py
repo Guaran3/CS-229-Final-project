@@ -35,11 +35,11 @@ f = open('parsedData.txt', 'w')
 for key,value in data.iteritems():
     strlist = []
     for k in key:
-        strlist.append([k + ' '])
+        strlist.append(k + ' ')
     value.sort()
     for vmac,vstr in value:
-        strlist.append([str(vmac) + ':' + vstr + ' '])
-    strlist[-1] = ['\n']
+        strlist.append(str(vmac) + ':' + vstr + ' ')
+    strlist[-1] = '\n'
     f.write(''.join(strlist))
 
 f.close()
