@@ -25,7 +25,5 @@ for i=1:length(raw)
     end
 	        
 
-
-
 end
 
