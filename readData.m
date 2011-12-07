@@ -33,8 +33,8 @@ for i=1:length(raw)
         Xm = [Xm item];
         [temp current] = strtok(current, ' ');
         [mac strength] = strtok(temp, ':');
-	mac = str2double(mac);
-	strength = str2double(strength);
+        mac = str2double(mac);
+        strength = str2double(strength);
         if isempty(find(MAClist, mac))
             MAClist = [MAClist mac];
         end
