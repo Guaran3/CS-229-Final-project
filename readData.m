@@ -2,7 +2,7 @@ function [yvals xvals Xm Xn X] = readData( minlat, minlong, maxlat, maxlong )
 %READDATA Summary of this function goes here
 %   Detailed explanation goes here
 
-fg = fopen('parsedData.txt', 'r');
+fg = fopen('filtered.txt', 'r');
 raw = textscan(fg, '%[^\n\r]');
 raw = raw{1,1};
 
