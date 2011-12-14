@@ -51,5 +51,9 @@ for i=1:length(raw)
 end
 
 yvals = Y;
-xvals = sparse(Xm, Xn, X);
+xvals = zeros(max(Xm), max(Xn));
+for i = 1:length(Xm)
+    xvals(Xm(i),Xn(i)) = X(i);
+
+end
 
