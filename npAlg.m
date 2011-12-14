@@ -35,4 +35,8 @@ end
 % variables to account for decreasing weighting as distance
 % increases.  
 SD = distmat(full(xvals));
+GD = distmat(yvals(1:2, :));
 
+% now that this script should have all the data turned into
+% format, we can call a function that actually starts 
+% determining approximate locations of data. 
