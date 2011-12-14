@@ -7,15 +7,18 @@
 %
 % degree lat = 110985.506 meters
 % degree long = 88519.664 meters (at about 37 deg lat)
-dlat = 110985.506;
-dlon =  88519.664;
+data.dlat = 110985.506;
+data.dlon =  88519.664;
 
+% store the minvalues so we can convert back to the correct format later
+data.xmin = min(yvals(1,:));
+data.ymin = min(yvals(2,:));
 %translate
-yvals(1, :) = yvals(1,:) - min(yvals(1,:);
-yvals(2, :) = yvals(2,:) - min(yvals(2,:);
+yvals(1, :) = yvals(1,:) - data.xmin;
+yvals(2, :) = yvals(2,:) - data.ymin;
 %convert to meters 
-yvals(1, :) = yvals(1,:) * dlat;
-yvals(2, :) = yvals(2,:) * dlon;
+yvals(1, :) = yvals(1,:) * data.dlat;
+yvals(2, :) = yvals(2,:) * data.dlon;
 
 %the next task is to flip x values: right now the 
 % values of X range from 0 to -99, with 0 being no 
@@ -34,8 +37,13 @@ end
 % next we create a distance matrix for both the X and Y
 % variables to account for decreasing weighting as distance
 % increases.  
-SD = distmat(full(xvals));
-GD = distmat(yvals(1:2, :));
+data.SD = distmat(full(xvals));
+data.GD = distmat(yvals(1:2, :));
+
+% put the rest of the data in the data struct. mostly
+% just to keep functions simple
+data.X = X;
+data.Y = yvals;
 
 % now that this script should have all the data turned into
 % format, we can call a function that actually starts 

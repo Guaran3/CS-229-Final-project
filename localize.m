@@ -1,4 +1,4 @@
-function [ lat long ] = localize(gps, aps, SD, GD, X, Y)
+function [ lat long ] = localize(gps, aps, data)
 % this function localizes one particular point of data
 % basically using a modified version of the LWLR algorithm
 % In this case it takes into account both the geometric
