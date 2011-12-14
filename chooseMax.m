@@ -9,6 +9,7 @@ for i=1:n
         end
     end
 end
+
 lat_min = min(yvals(:,1));
 lat_max = max(yvals(:,1));
 lon_min = min(yvals(:,2));
@@ -17,12 +18,13 @@ lat_l = int8((lat_max-lat_min)*111200)+1;
 lon_l = int8((lon_max-lon_min)*88519)+1;
 lat_coord=0;
 lon_coord=0;
+tau = 3000;
+threshold = .1;
 
-for index=1:n         % the index we're predicting for
+for index=1:1         % the index we're predicting for
     
     % Calculate the distance. I'll optimize this later.
     W = zeros(n,1);
-    tau = 10000;
     for i=1:n
         sqrdist = (F(i,:)-F(index,:))*(F(i,:)-F(index,:))';
         W(i) = exp(-sqrdist/tau);
@@ -31,7 +33,7 @@ for index=1:n         % the index we're predicting for
     % Probability map.
     P = zeros(lat_l,lon_l);
     for i=1:n
-        if W(i)>.3
+        if W(i)>threshold
             for j=1:lat_l
                 for k=1:lon_l
                     lat_coord = lat_min+double(j)/111200;
@@ -47,4 +49,4 @@ for index=1:n         % the index we're predicting for
     outputs(index,:)=[row/111200+lat_min col/88519+lon_min];
     
 end
-scatter(outputs(:,1), outputs(:,2))
+scatter(outputs(:,1), outputs(:,2), 'r')
