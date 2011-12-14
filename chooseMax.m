@@ -2,6 +2,13 @@
 n = size(yvals,1);  % num observations
 outputs = zeros(n,2);
 F = full(xvals);
+for i=1:n
+    for j=1:size(F,2)
+        if F(i,j)~=0
+            F(i,j)=F(i,j)+100;
+        end
+    end
+end
 lat_min = min(yvals(:,1));
 lat_max = max(yvals(:,1));
 lon_min = min(yvals(:,2));
@@ -11,11 +18,11 @@ lon_l = int8((lon_max-lon_min)*88519)+1;
 lat_coord=0;
 lon_coord=0;
 
-for index=100:110         % the index we're predicting for
+for index=1:n         % the index we're predicting for
     
     % Calculate the distance. I'll optimize this later.
     W = zeros(n,1);
-    tau = 100000;
+    tau = 10000;
     for i=1:n
         sqrdist = (F(i,:)-F(index,:))*(F(i,:)-F(index,:))';
         W(i) = exp(-sqrdist/tau);
@@ -36,6 +43,8 @@ for index=100:110         % the index we're predicting for
             end
         end
     end
-    outputs(index,:) = find(P==max(P(:)))
+    [row,col] = find(P==max(P(:)));
+    outputs(index,:)=[row/111200+lat_min col/88519+lon_min];
     
 end
+scatter(outputs(:,1), outputs(:,2))
