@@ -105,7 +105,7 @@ class GMdata(object):
 class FilteredData(GMdata):
 
     def __init__(self):
-        GMdata.__init__()
+        GMdata.__init__(self)
         self.filtered = {}
         self.lat = None
         self.lon = None
@@ -170,11 +170,21 @@ class FilteredData(GMdata):
         self.fradius = rad
         self.lat = lat
         self.lon = lon
+        counter = 1
+        macdict = {}
         for key,value in self.data.iteritems():
             (time, klat, klon, err) = key
+            if (lat - rad < float(klat) < lat + rad and 
+                lon - rad < float(klon) < lon + rad):
+                newval = []
+                for (mac,val) in value:
+                    if mac not in macdict:
+                        macdict[mac] = counter
+                        counter += 1
+                    entrytuple = (macdict[mac], val)
+                    newval.append(entrytuple)
 
-            if lat - rad < klat < lat + rad and lon - rad < klon < lon + rad:
-                self.filtered[key] = value
+                self.filtered[key] = newval
      
             
 if __name__ == '__main__':
