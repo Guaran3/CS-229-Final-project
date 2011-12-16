@@ -1,5 +1,5 @@
 %start by reading in the data points from file.
-[yvals xvals] = readData(-360, -360, 360, 360);
+[yvals xvals Xm, Xn, XX] = readData(-360, -360, 360, 360);
 
 % Next, we convert all of the y values into meters, 
 % so that we can maintain a consistent unit system
@@ -28,11 +28,11 @@ yvals = yvals(1:2, :);
 % reading and -99 being the weakest, which is incorrect.
 % the simple solution is to just take 100 - val if
 % val is non-zero.
-X = full(xvals)
+X = xvals;
 for j = 1:size(X, 1)
     for k = 1:size(X, 2)
         if X(j,k) < 0 
-            X(j,k) = 100 + X(j,k)
+            X(j,k) = 100 + X(j,k);
         end
     end
 end
@@ -47,7 +47,6 @@ end
 % just to keep functions simple
 data.X = X;
 data.Y = yvals;
-data.E = E;
 
 % now that this script should have all the data turned into
 % format, we can call a function that actually starts 

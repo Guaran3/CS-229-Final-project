@@ -21,8 +21,10 @@ largest = largest * largest';
 W = zeros(len,1);
 for i =1:len
     dist = (data.X(i,:) - aps)*(data.X(i,:) - aps)';
-    W(i) = exp(dist/2*tau^2);
+    W(i) = sqrt(dist);
 end
+W = W / max(W);
+W = (1 - W.^3).^3;
 
 P = zeros(xcoord + 10 , ycoord + 10);
 for i = 1:len
