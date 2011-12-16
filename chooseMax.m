@@ -10,8 +10,8 @@ for i=1:n
     end
 end
 
-scale_lat=111200*2;
-scale_lon = 88519*2;
+scale_lat=111200;
+scale_lon = 88519;
 lat_min = min(yvals(:,1));
 lat_max = max(yvals(:,1));
 lon_min = min(yvals(:,2));
@@ -43,7 +43,10 @@ for index=1:n         % the index we're predicting for
                     lon_coord = lon_min+double(k)/scale_lon;
                     rsqr = ((lat_coord-yvals(i,1))*scale_lat)^2+((lon_coord-yvals(i,2))*scale_lon)^2;
                     sigma = yvals(i,3)/3;
-                    P(j,k)=P(j,k)+W(i)*exp(-rsqr/(2*sigma^2))/(2*sigma^2);
+                    if sqrt(rsqr)<sigma*3
+                        lik = exp(-rsqr/(2*sigma^2))/(sigma^2);
+                        P(j,k)=P(j,k)+lik;
+                    end
                 end
             end
         end
@@ -55,7 +58,11 @@ end
 
 n_outputs = outputs;
 for i = 1:n
-    n_outputs(i,1) = n_outputs(i,1) +rand(1)*.0001;
-    n_outputs(i,2) = n_outputs(i,2) +rand(1)*.0001;
+    n_outputs(i,1) = n_outputs(i,1) +rand(1)*.00001;
+    n_outputs(i,2) = n_outputs(i,2) +rand(1)*.00001;
 end
-scatter(n_outputs(:,1), n_outputs(:,2))
+scatter(n_outputs(:,2), n_outputs(:,1),'r')
+hold on
+scatter(outputs(:,2), outputs(:,1),'b')
+hold on
+scatter(yvals(:,2), yvals(:,1),'g')
