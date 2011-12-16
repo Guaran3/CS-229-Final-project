@@ -1,0 +1,21 @@
+\begin{abstract}
+The widespread availability of wireless networks has created an
+increased interest in harnessing them for other purposes, such as 
+localizing mobile devices. Our particular goal was to be able to 
+use these techniques as well as others in order to better predict
+the location of a smart phone inside a building.
+The current state of the art techniques use Gaussian Process Latent Variable
+Models to solve this problem. However, existing implementations of
+this technique require ground traces (wifi data collected sequentially)
+and are limited to signal-rich
+environments. Due to the constraints of using phones for this,
+we were restricted to non sequential data. Since this eleminates the possbility
+of using traditional GP-LVM techniques, we created a locally weighted regression based machine
+learning algorithm for geographical localization of a mobile device in
+an indoor environment based on WiFi signal strength data. Our
+contribution is a novel approach to generating adequate likelihood
+models based on locally weighted sums of Gaussian probability 
+densities. The results show that our algorithm is effectively deduces
+the original floor plan of the environment and presents a more accurate
+estimate of the device's location.
+\end{abstract}

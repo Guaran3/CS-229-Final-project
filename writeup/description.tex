@@ -1,0 +1,74 @@
+\section{Description of Problem}
+
+There are several key challenges associated with localization, and 
+in particular doing so with the limitations imposed by using smart
+phone data. These include data collection, power usage of the phones,
+and the challenge of localization itself.  All three of these aspects
+add to the difficulty in this problem. 
+
+\subsection{Data Collection}
+One obstacle to cell phone localization is in data collection.  
+It is certainly desirable to take thousands of scans of a particular
+building, and map it to a ground truth map; however, the time and 
+cost of this method is prohibitively expensive.  Instead, an intelligent
+method for extracting the most information with the least cost must be 
+found.  Instead of this, we chose to use existing smart phone applications
+to assist us in data collection.  Working with a company that is 
+developing other location based software, we would piggyback data
+that we would need along with theirs.  This means that anyone with 
+this application installed will be collecting data, and will not
+drain batteries more than would ordinarily occur.  While this certainly
+makes it simple to collect huge amounts of data in a relatively short amount
+of time, it creates another problem: which data do we need for a particular building.
+This problem was beyond the scope of our current goals, and for this 
+project, data was simply narrowed down by hand to a specific building as 
+necessary.  
+
+\subsection{Phone Limitations}
+Another obstacle to designing an algorithm for smart phones are the limitations
+of the phones themselves.  As mentioned above, one major limitation 
+for phones is battery life.  This is in fact the single largest obstacle
+to designing more complex algorithms, as we cannot insist that the user constantly 
+be scanning wifi networks in order to localize, as that would be an enourmous strain 
+on battery consumption.  One aspect of phones that we could not account for at all
+was dealing with the wide variety of phones and corresponding hardware, putting 
+limits on how much we could trust the data given to us. Finally, the computing and 
+memory requirements have to be taken into consideration.  While it is true that 
+smart phones are highly capable machines, the users themselves don't want an
+application that takes gigabytes of data just to improve accuracy in localization.
+Similarly, in order for localization to be useful, it must be relatively fast 
+(ie < 1-2 seconds).  This also limits how we are able to process incoming data.
+
+\subsection{Localization Challenges}
+The key challenge of localization is overcoming the unpredictability
+of WiFi signal propagation through indoor environments. The data
+distribution may vary based on changes in temperature and humidity, as
+well as the position of moving obstacles, such as people walking
+throughout the building. This uncertainty makes it difficult to
+generate accurate estimates of signal strength measurements. Thus, the
+bulk of research in this area focuses on refining the location
+likelihood models from the available data collected in the
+environment.
+
+\subsection{Approach}
+In order to resolve these challenges, we present a machine learning
+based algorithm for localizing a mobile device using a locally
+weighted regression to map high-dimensional data to a likelihood
+function in a low-dimensional latent space. In our context, the
+high-dimensional data represents signal strength for all WiFi access
+points in the indoor environment, and the low-dimensional space
+corresponds to the geographical coordinates of the device's location.
+Our technique considers that signal strength correlates with physical
+location. Observations with similar signal strength measurements are
+likely to be close to each other. This constraint is important when
+dealing with data from close loops, where the person visits a location
+at two different points in time.
+The data we collected consists of signal strength measurements
+annotated with GPS readings and error estimates. We collected data
+sets via the method described above, and chose Packard building to model,
+as it has a relatively simple layout and we had the most data for this building.
+For calculation, we offloaded this to the server for two reasons in particular.
+The first, and most obvious, is that local regression is non-parametric and 
+thus we would need to send a phone large amounts of data in order to process it
+onboard.  Second, this allows us to use the significantly higher processing power
+of the servers.
