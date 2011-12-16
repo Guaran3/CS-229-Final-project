@@ -1,0 +1,31 @@
+\section{Comparison of localization techniques}
+Throughout this project we tried several different techniques to get more accurate
+localization using WiFi.  The two that are representative of these methods are 
+Gaussian Process Latent Variable Models and WiFi triangulation.  
+\subsection{GP-LVM}
+The currently most popular and arguably most state of the art technique
+is the Gaussian Process Latent variable model.  In this model, they use
+a similar kernel to our in terms of $w$, a squared exponential weighting 
+for WiFi points.  However, they also assign to each WiFi reading a latent variable
+tied to the time the sample was taken.  This allows them to make the following 
+assumptions: successive positions in time have a proximity component, the change in 
+position is likely parallel to other similar reading transitions, and orientation
+between successive points is relatively low.  (this follows from the fact that 
+most hallways are straight corridors. Their final constraint, again like ours, is 
+to assume that similar signal strength readings possess similar coordinates in space.
+While we began our testing using this model, it was not very effective, since we 
+did not have the temporal data that we needed.  Data collection for a single phone
+occurred at most once every 15 seconds, and more commonly was on the order of several 
+minutes.  This essentially zeroed out any calculations involving the latent variables,
+making this method ineffective.
+
+\subsection{Triangulation}
+This is certainly the most naive approach when attempting localization. Essentially, 
+one considers signal strengths to be distances from an Access point with an exponentially 
+decaying signal strength and random noise factor, $\varepsilon$. When we tried this, we used two steps:
+We began by using a portion of the data to try to localize the APs nearby, and from there used the
+rest of the data in for trying to find any error terms.  This was even less effective than the 
+above method, due to the faulty assumption that signal strength decays uniformly as a function
+of radius.  As mentioned previously, walls, furniture, and even other people in thte building can 
+effect the signal strength of a particular access point, which makes it virtually impossible to
+use this method without significant error.
