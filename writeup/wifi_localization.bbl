@@ -1,0 +1,39 @@
+\begin{thebibliography}{}
+
+\bibitem[Biswas and Veloso, 2010]{biswas}
+Biswas, J. and Veloso, M. (2010).
+\newblock Wifi localization and navigation for autonomous indoor mobile robots.
+\newblock In {\em Proceedings of the IEEE International Conference on Robotics
+  and Automation}.
+
+\bibitem[Ferris et~al., 2007]{WiFiSLAM}
+Ferris, B., Fox, D., and Lawrence, N. (2007).
+\newblock Wifi-slam using gaussian process latent variable models.
+\newblock In {\em Proceedings of the International Joint Conferences on
+  Artificial Intelligence}, pages 2480--2485.
+
+\bibitem[Howard et~al., 2003]{Howard-2003-283}
+Howard, A., Siddiqi, S., and Sukhatme, G.~S. (2003).
+\newblock An experimental study of localization using wireless ethernet.
+\newblock In {\em Proceedings of the International Conference on Field and
+  Service Robotics}.
+
+\bibitem[Huang et~al., 2011]{graphSLAM}
+Huang, J., Millman, D., Quigley, M., Stavens, D., Thrun, S., and Aggarwal, A.
+  (2011).
+\newblock Efficient, generalized indoor wifi graphslam.
+\newblock In {\em Proceedings of the IEEE International Conference on Robotics
+  and Automation}.
+
+\bibitem[Siddiqi et~al., 2003]{siddiqi}
+Siddiqi, S., Sukhatme, G.~S., and Howard, A. (2003).
+\newblock Experiments in monte-carlo localization using wifi signal strength.
+\newblock In {\em Proceedings of the International Conference on Advanced
+  Robotics}, Coimbra, Portugal.
+
+\bibitem[Yang et~al., 2007]{Estimating}
+Yang, Q., Pan, S.~J., and Zheng, V.~W. (2007).
+\newblock Estimating location using wi-fi.
+\newblock {\em IEEE Intelligent Systems}.
+
+\end{thebibliography}
